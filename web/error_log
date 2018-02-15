@@ -1,0 +1,29 @@
+[13-Feb-2018 17:21:07 Europe/Helsinki] PHP Fatal error:  Class 'app\controllers\Task' not found in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 74
+[13-Feb-2018 17:22:47 Europe/Helsinki] PHP Fatal error:  Class 'app\controllers\Task' not found in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 74
+[14-Feb-2018 11:36:55 Europe/Helsinki] PHP Fatal error:  Class 'app\controllers\Project' not found in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 141
+[14-Feb-2018 11:38:46 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:39:13 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:39:25 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:39:25 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:42:46 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:50:35 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:51:17 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:51:17 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:53:13 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:53:14 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:53:43 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:58:28 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:58:28 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:58:34 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:59:21 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:59:22 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 11:59:27 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:07:20 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:14:38 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:14:42 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:14:42 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:15:17 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 12:15:17 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on null in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 101
+[14-Feb-2018 13:40:36 Europe/Helsinki] PHP Fatal error:  Call to a member function delete() on array in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 166
+[14-Feb-2018 14:26:15 Europe/Helsinki] PHP Fatal error:  Call to a member function getColor() on array in /home/gfostppv/public_html/taskmanager/views/site/index.php on line 58
+[15-Feb-2018 14:50:50 Europe/Helsinki] PHP Parse error:  syntax error, unexpected 'Yii' (T_STRING) in /home/gfostppv/public_html/taskmanager/controllers/SiteController.php on line 92

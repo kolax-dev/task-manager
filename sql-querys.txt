@@ -1,0 +1,57 @@
+SQL task
+
+1. get all statuses, not repeating, alphabetically ordered:
+
+SELECT DISTINCT status FROM `tasks` ORDER BY status 
+-------------------------------------------------------------
+2. get the count of all tasks in each project, order by tasks count descending:
+
+SELECT count(t.id) FROM `tasks`t
+LEFT JOIN `projects` p ON t.id_project = p.id
+GROUP BY p.id
+ORDER BY count(t.id) DESC
+-------------------------------------------------------------
+3. get the count of all tasks in each project, order by projects names:
+
+SELECT count(t.id) FROM `tasks`t
+LEFT JOIN `projects` p ON t.id_project = p.id
+GROUP BY p.id
+ORDER BY p.name 
+----------------------------------------------------------------
+4. get the tasks for all projects having the name beginning with “N” letter:
+
+SELECT * FROM `tasks` WHERE name LIKE 'N%'
+----------------------------------------------------------------
+5. get the list of all projects containing the ‘a’ letter in the middle of the name, and
+show the tasks count near each project. Mention that there can exist projects without
+tasks and tasks with project_id=NULL: 
+
+SELECT p.* , count(t.id) FROM `projects` p 
+LEFT JOIN `tasks` t ON t.id_project = p.id
+WHERE p.name  LIKE '%a%'
+GROUP BY p.name
+^в этом запросе и так выведутся проекты если у них нет задач , просто рядом их count будет 0 
+----------------------------------------------------------------
+6. get the list of tasks with duplicate names. Order alphabetically:
+
+SELECT * FROM `tasks` 
+WHERE name IN (SELECT name FROM `tasks` GROUP BY name HAVING COUNT(name) > 1)
+-------------------------------------------------------------------
+7. get the list of tasks having several exact matches of both name and status, from
+the project ‘Garage’. Order by matches count:
+
+SELECT t.* FROM ( SELECT name, status  FROM `tasks`  GROUP BY name, status HAVING COUNT(*) > 1 ) t2
+LEFT JOIN `tasks` t  ON t2.name = t.name  AND t2.status = t.status
+LEFT JOIN `projects` p ON t.id_project = p.id 
+WHERE p.name= 'Garage'
+--------------------------------------------------------------------
+8. get the list of project names having more than 10 tasks in status ‘completed’. Order
+by project_id:
+
+SELECT p.name FROM `projects` p
+LEFT JOIN `tasks` t ON t.id_project = p.id
+WHERE t.status = 'completed'
+GROUP BY p.name
+HAVING COUNT(t.id) > 10
+ORDER BY p.id
+--------------------------------------------------------------------
